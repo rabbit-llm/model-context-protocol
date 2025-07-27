@@ -26,11 +26,6 @@ Before starting the exercises, ensure you have the following tools installed:
     source /path/to/your/desired/ven/rabbitllm/bin/activate
     ```
 
-    On Windows, activate with:
-
-    ```cmd
-    venv\Scripts\activate
-    ```
 
 3. **Install dependencies:**
 
