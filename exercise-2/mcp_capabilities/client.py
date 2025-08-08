@@ -38,8 +38,8 @@ async def main():
         weather_result = await client.call_tool("get_weather", {"city": "Helsinki"})
         pp.pprint(weather_result)
 
-        # 5. Use a prompt to get weather information
-        print("\n📝 Using prompt to get weather information for Tampere...")
+        # 5. Test the prompt generator
+        print("\n📝 Generated prompt for an LLM: for Tampere...")
         prompt_result = await client.get_prompt("get_weather", {"location": "Tampere"})
         pp.pprint(prompt_result)
         
