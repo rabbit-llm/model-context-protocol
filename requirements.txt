@@ -1,0 +1,4 @@
+fastmcp
+chromadb
+duckduckgo-search
+sentence-transformers
